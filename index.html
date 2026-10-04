@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cocina Pagana — 55 recetas para cocinar con intención · OWEN co.</title>
+<meta name="description" content="El grimorio culinario del brujo mexicano moderno: 55 recetas, 8 sabbats, 4 lunas, imprimibles, trackers y bonus. Cocina con intención.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500&family=IM+Fell+English:ital@0;1&family=Montserrat:wght@700;800;900&family=Poppins:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bar" id="bar">
+  <span class="bar__txt">Precio de lanzamiento de luna nueva</span>
+  <span class="bar__timer" data-countdown><b data-d>00</b>d <b data-h>00</b>h <b data-m>00</b>m <b data-s>00</b>s</span>
+  <a href="#precio" class="bar__link">Quiero el mío →</a>
+</div>
+
+<header class="nav">
+  <a href="#top" class="nav__logo">Cocina Pagana</a>
+  <nav class="nav__links">
+    <a href="#dentro">Dentro</a>
+    <a href="#bonus">Bonus</a>
+    <a href="#imprimibles">Imprimibles</a>
+    <a href="#faq">Preguntas</a>
+  </nav>
+  <a href="#precio" class="btn btn--sm">Abrir el grimorio</a>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__sigil" aria-hidden="true">
+    <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="49"/><circle cx="50" cy="50" r="44" class="dash"/><circle cx="50" cy="50" r="34"/><polygon points="50,16 69.98,77.5 17.66,39.49 82.34,39.49 30.02,77.5"/><line x1="50" y1="0" x2="50" y2="100"/><line x1="0" y1="50" x2="100" y2="50"/></svg>
+  </div>
+  <div class="hero__copy reveal">
+    <p class="eyebrow">Wicca · Luna · Sabor · Ritual · México</p>
+    <h1 class="hero__title">Cocina<br>Pagana</h1>
+    <p class="hero__sub">55 recetas para cocinar con intención</p>
+    <p class="hero__lede">El grimorio culinario del brujo mexicano moderno. Cacao, maíz, piloncillo y luna llena: una cocina que alimenta el cuerpo y encanta lo cotidiano.</p>
+    <div class="hero__ctas">
+      <a href="#precio" class="btn">Quiero mi grimorio</a>
+      <a href="#dentro" class="btn btn--ghost">Ver qué hay dentro</a>
+    </div>
+    <ul class="hero__facts">
+      <li><b>186</b> páginas</li>
+      <li><b>31</b> capítulos</li>
+      <li><b>9</b> bonus</li>
+      <li><b>16+</b> imprimibles</li>
+    </ul>
+  </div>
+  <div class="hero__book reveal">
+    <div class="book">
+      <div class="book__spine"></div>
+      <div class="book__cover">
+        <div class="book__top"><span>OWEN co.</span><span>OCCULT CULINARY EDITIONS</span></div>
+        <svg class="book__sigil" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46"/><polygon points="50,14 71.16,79.12 15.76,38.88 84.24,38.88 28.84,79.12"/></svg>
+        <span class="book__moon"></span>
+        <div class="book__title">Cocina<br>Pagana</div>
+        <div class="book__sub">55 recetas para cocinar con intención</div>
+        <div class="book__foot"><span>55 RECETAS</span><span>8 SABBATS</span><span>4 LUNAS</span><span>∞</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LUNA DE HOY -->
+<section class="moonnow reveal" id="luna">
+  <div class="moonnow__icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" class="moonnow__ring"/><path data-moon-path d=""/></svg></div>
+  <div class="moonnow__txt">
+    <p class="eyebrow">Hoy en el cielo</p>
+    <h2>La luna está en <span data-moon-name>…</span></h2>
+    <p data-moon-desc></p>
+  </div>
+  <div class="moonnow__rec">
+    <span class="label">El grimorio recomienda</span>
+    <span class="moonnow__dish" data-moon-dish></span>
+    <a href="#precio" class="link">Cocinarla esta noche →</a>
+  </div>
+</section>
+
+<!-- NO ES UN EBOOK MÁS -->
+<section class="section section--light" id="diferente">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--dark">No es un ebook más</p>
+    <h2 class="h2">Esto no es otro recetario<br>con pentagramas al azar.</h2>
+    <p class="lede">Es un grimorio que se cocina, se imprime, se anota y se hereda. Diseñado como objeto editorial de lujo para quien quiere que su cocina se sienta distinta desde esta noche.</p>
+    <div class="vs">
+      <div class="vs__col">
+        <span class="vs__head">El típico ebook “witchy”</span>
+        <ul>
+          <li>Recetas europeas con ingredientes que no encuentras</li>
+          <li>Estética de Halloween y brillos de plástico</li>
+          <li>Texto infinito, sin respiro</li>
+          <li>Confunde Wicca, paganismo y brujería</li>
+          <li>Lo lees una vez y se pierde en tus descargas</li>
+        </ul>
+      </div>
+      <div class="vs__col vs__col--win">
+        <span class="vs__head">Cocina Pagana</span>
+        <ul>
+          <li>Todo se consigue en tu mercado: cacao, maíz, jamaica, tejocote</li>
+          <li>Negro, hueso y bosque: un grimorio de lujo</li>
+          <li>Ritmo editorial: recetas, tablas, lunas, rituales, silencio</li>
+          <li>Explica con respeto cada tradición</li>
+          <li>Imprimibles y trackers para usarlo todo el año</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section class="quote reveal">
+  <span class="star">✦</span>
+  <p>“La magia también puede empezar en una olla.”</p>
+</section>
+
+<!-- DENTRO -->
+<section class="section" id="dentro">
+  <div class="wrap">
+    <p class="eyebrow">Lo que te espera dentro</p>
+    <h2 class="h2">31 capítulos. Un año entero de rituales en la cocina.</h2>
+    <div class="chapters">
+      <article class="ch reveal"><span class="ch__n">00</span><h3>Umbral</h3><p>La invitación: una olla, una cuchara, una hierba, una vela y una intención.</p></article>
+      <article class="ch reveal"><span class="ch__n">02</span><h3>Pagano ≠ Wicca</h3><p>Paganismo, Wicca y brujería, explicados con un diagrama precioso y sin confusiones.</p></article>
+      <article class="ch reveal"><span class="ch__n">03</span><h3>La cocina como ritual</h3><p>Los cinco sentidos y el reset de cocina de 10 minutos antes de encender el fuego.</p></article>
+      <article class="ch reveal"><span class="ch__n">05</span><h3>Ingredientes con significado</h3><p>24 ingredientes mexicanos con historia, símbolo, temporada y sustituto.</p></article>
+      <article class="ch reveal"><span class="ch__n">06</span><h3>No importes tu magia</h3><p>El grimorio mexicano de sustituciones: adiós romero importado, hola mercado.</p></article>
+      <article class="ch reveal"><span class="ch__n">07</span><h3>La luna en la cocina</h3><p>Qué cocinar en luna nueva, creciente, llena y menguante.</p></article>
+      <article class="ch reveal"><span class="ch__n">09</span><h3>La Rueda del Año</h3><p>Los 8 sabbats con colores, ingredientes, menú, postre, bebida, mesa y música.</p></article>
+      <article class="ch reveal ch--hi"><span class="ch__n">10</span><h3>55 recetas paganas</h3><p>Desayunos, platos fuertes, panes, postres y brebajes. Deliciosas primero, mágicas después.</p></article>
+      <article class="ch reveal"><span class="ch__n">13</span><h3>Banquete de Samhain</h3><p>Un menú completo para honrar, recordar y soltar.</p></article>
+      <article class="ch reveal"><span class="ch__n">14</span><h3>Yule: una mesa para la luz</h3><p>Horneados, ponche y un ritual de velas para la noche más larga.</p></article>
+      <article class="ch reveal"><span class="ch__n">15</span><h3>Reuniones mágicas</h3><p>8 formatos de reunión con invitación, menú, actividad, preguntas y cierre.</p></article>
+      <article class="ch reveal"><span class="ch__n">30</span><h3>El código</h3><p>Diez principios de la cocina pagana para llevar contigo.</p></article>
+    </div>
+    <p class="more">+ meditaciones, playlist bruja, historia de la comida pagana, 13 mitos y seguridad en la cocina</p>
+  </div>
+</section>
+
+<!-- RECETA PREVIEW -->
+<section class="section section--forest" id="receta">
+  <div class="wrap recipe">
+    <div class="recipe__copy reveal">
+      <p class="eyebrow">Así se ve cada receta</p>
+      <h2 class="h2">Cada plato trae su luna, su intención y su ritual.</h2>
+      <p class="lede">Ingredientes de mercado, sustituciones mexicanas, paso a paso claro, cómo servir, qué decir antes de comer, maridaje, cómo guardar y un ritual opcional. Sin relleno.</p>
+      <a href="#precio" class="btn btn--light">Quiero las 55 recetas</a>
+    </div>
+    <div class="card reveal">
+      <div class="card__top"><span>10 / SABOR · II · PLATOS PRINCIPALES</span><span>Nº 13 / 55</span></div>
+      <div class="card__head"><span class="card__num">13</span><div><span class="card__tag">Reinterpretación contemporánea</span><h3>Mole Ritual de Cacao</h3></div></div>
+      <div class="card__meta">
+        <div><span>Luna</span><b>Luna llena</b></div>
+        <div><span>✦ Intención</span><b>Unión y memoria</b></div>
+        <div><span>Elemento</span><b>Fuego</b></div>
+        <div><span>Sabbat</span><b>Samhain · Yule</b></div>
+      </div>
+      <div class="card__body">
+        <div><span class="label">Ingredientes</span><p>Chiles ancho, mulato y pasilla · jitomate asado · ajonjolí y cacahuate · canela y clavo · chocolate de mesa · caldo…</p></div>
+        <div><span class="label">Ritual opcional</span><p>Pide a cada persona que mueva el mole una vez y diga el nombre de alguien que le enseñó a cocinar.</p></div>
+      </div>
+      <div class="card__thanks">“En esta olla se encuentran muchas manos y muchos tiempos.”</div>
+    </div>
+  </div>
+</section>
+
+<!-- BONUS -->
+<section class="section" id="bonus">
+  <div class="wrap">
+    <p class="eyebrow">Incluido sin costo extra</p>
+    <h2 class="h2">9 bonus que por sí solos<br>valen más que el grimorio.</h2>
+    <div class="bonus">
+      <article class="bn reveal"><span class="bn__n">I</span><h3>20 tés, tisanas y brebajes</h3><p>Para amor, fortuna, calma, enfoque, descanso, valor, protección, soltar y reset.</p><span class="bn__v" data-value="149"></span></article>
+      <article class="bn reveal"><span class="bn__n">II</span><h3>7 ponches mágicos</h3><p>Para inundar tu casa de canela, cáscara de naranja, clavo, cacao y vapor.</p><span class="bn__v" data-value="99"></span></article>
+      <article class="bn reveal bn--hi"><span class="bn__n">III</span><h3>Emprende tu café brujil</h3><p>Concepto, menú, costos, márgenes, permisos, checklist y plan de lanzamiento de 30 días.</p><span class="bn__v" data-value="399"></span></article>
+      <article class="bn reveal"><span class="bn__n">IV</span><h3>10 ideas de negocio pagano</h3><p>Del brunch lunar a los kits de té ritual, con costo estimado, cliente ideal y primer canal.</p><span class="bn__v" data-value="199"></span></article>
+      <article class="bn reveal"><span class="bn__n">V</span><h3>15 postres mágicos</h3><p>Una bóveda dulce aparte de las 55 recetas, con su ritual al servir.</p><span class="bn__v" data-value="129"></span></article>
+      <article class="bn reveal"><span class="bn__n">VI</span><h3>La despensa bruja</h3><p>46 ingredientes esenciales, deseables, de temporada y de ocasión especial.</p><span class="bn__v" data-value="79"></span></article>
+      <article class="bn reveal"><span class="bn__n">VII</span><h3>Lista del mercado</h3><p>La lista del brujo mexicano: frutas, hierbas, especias, cacao y comestibles decorativos.</p><span class="bn__v" data-value="49"></span></article>
+      <article class="bn reveal"><span class="bn__n">VIII</span><h3>20 cartas de intención</h3><p>Imprime, recorta y saca una antes de cocinar. Tu oráculo de cocina.</p><span class="bn__v" data-value="149"></span></article>
+      <article class="bn reveal"><span class="bn__n">IX</span><h3>Reto de 30 días</h3><p>Un ciclo lunar de acciones pequeñas, con intención y reflexión diaria.</p><span class="bn__v" data-value="99"></span></article>
+    </div>
+    <div class="stack reveal">
+      <span>Valor total de los bonus</span>
+      <s data-bonus-total></s>
+      <b>Hoy: incluidos</b>
+    </div>
+  </div>
+</section>
+
+<!-- IMPRIMIBLES -->
+<section class="section section--light" id="imprimibles">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--dark">Tus hojas mágicas</p>
+    <h2 class="h2">Imprímelo, mánchalo de cacao,<br>escríbele encima.</h2>
+    <p class="lede">Más de 16 imprimibles en tamaño carta para convertir el grimorio en tu propio diario de cocina.</p>
+    <div class="prints">
+      <div class="pr reveal"><div class="pr__sheet pr__sheet--moon"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span>Tracker de fases lunares</span></div>
+      <div class="pr reveal"><div class="pr__sheet pr__sheet--wheel"><b></b></div><span>Rueda del Año</span></div>
+      <div class="pr reveal"><div class="pr__sheet pr__sheet--lines"></div><span>Tracker de la cocina pagana</span></div>
+      <div class="pr reveal"><div class="pr__sheet pr__sheet--cards"><i></i><i></i><i></i><i></i><i></i><i></i></div><span>Cartas de intención</span></div>
+      <div class="pr reveal"><div class="pr__sheet pr__sheet--check"><i></i><i></i><i></i><i></i><i></i><i></i></div><span>Checklist ritual</span></div>
+      <div class="pr reveal"><div class="pr__sheet pr__sheet--grid"></div><span>Planeador de menú</span></div>
+    </div>
+    <ul class="tags">
+      <li>Tarjetas de receta</li><li>Lista del mercado</li><li>Inventario de despensa</li><li>Ingredientes de temporada</li><li>Planeador de reunión</li><li>Diario de gratitud</li><li>Planeador de Samhain</li><li>Planeador de Yule</li><li>Cena de luna llena</li><li>Limpieza de cocina</li><li>Inventario de hierbas</li><li>¿Qué cocino hoy?</li><li>Tarjetas de meditación</li><li>Reto de 30 días</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ORÁCULO -->
+<section class="oracle" id="oraculo">
+  <div class="wrap oracle__wrap">
+    <div class="oracle__copy reveal">
+      <p class="eyebrow">Tip mágico gratis</p>
+      <h2 class="h2">Saca tu carta de intención para hoy.</h2>
+      <p class="lede">Una de las 20 cartas del grimorio. Respira, haz clic y deja que te diga qué cocinar.</p>
+      <button class="btn" data-draw>Sacar una carta</button>
+    </div>
+    <div class="tarot reveal" data-card>
+      <div class="tarot__inner">
+        <div class="tarot__back"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44"/><polygon points="50,8 74.69,84 10.06,37.02 89.94,37.02 25.31,84"/></svg></div>
+        <div class="tarot__front">
+          <span class="tarot__n" data-c-n>01</span>
+          <span class="tarot__g" data-c-g>♡</span>
+          <span class="tarot__t" data-c-t>Amor</span>
+          <span class="tarot__p" data-c-p>Me trato con la ternura que doy.</span>
+          <span class="tarot__tip" data-c-tip></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIPS -->
+<section class="section" id="tips">
+  <div class="wrap">
+    <p class="eyebrow">Tres secretos del grimorio</p>
+    <h2 class="h2">Pruébalos esta noche.</h2>
+    <div class="tips">
+      <article class="tip reveal"><span class="tip__n">I</span><h3>El reset de 10 minutos</h3><p>Abre la ventana, despeja la barra, dispón tus ingredientes en círculo, enciende una vela lejos del fuego y respira tres veces antes del primer corte.</p></article>
+      <article class="tip reveal"><span class="tip__n">II</span><h3>Mueve con intención</h3><p>A favor de las manecillas para atraer, en contra para soltar. Un gesto mínimo que convierte un atole en un hechizo cotidiano.</p></article>
+      <article class="tip reveal"><span class="tip__n">III</span><h3>Nada se desperdicia</h3><p>La flor de jamaica de tu agua fresca se convierte en tinga. La cáscara de piña, en tepache. Aprovechar también es magia.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- PARA QUIÉN -->
+<section class="section section--light" id="para-quien">
+  <div class="wrap who">
+    <div class="reveal">
+      <p class="eyebrow eyebrow--dark">Este grimorio es para ti si…</p>
+      <ul class="who__list">
+        <li>Sientes que tu cocina puede ser más que una cocina</li>
+        <li>Te llama la luna, las hierbas y los rituales</li>
+        <li>Amas la comida mexicana y quieres verla con otros ojos</li>
+        <li>Quieres celebrar Samhain, Yule o la luna llena con tu gente</li>
+        <li>Eres principiante o llevas años practicando</li>
+        <li>Sueñas con un café, un brunch o un proyecto brujil propio</li>
+      </ul>
+    </div>
+    <div class="who__feel reveal">
+      <p class="eyebrow eyebrow--dark">Al cerrar el libro vas a pensar</p>
+      <p class="feel" data-rotate>“Quiero cocinar algo esta noche.”</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRECIO -->
+<section class="price" id="precio">
+  <div class="price__sigil" aria-hidden="true"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="49"/><polygon points="50,4 77.04,87.21 6.25,35.79 93.75,35.79 22.96,87.21"/></svg></div>
+  <div class="price__card reveal">
+    <p class="eyebrow">Precio de lanzamiento</p>
+    <h2 class="price__title">Cocina Pagana</h2>
+    <p class="price__sub">Grimorio digital completo + 9 bonus + imprimibles</p>
+    <ul class="price__list">
+      <li>55 recetas paganas con ritual opcional</li>
+      <li>31 capítulos · 186 páginas en tamaño carta</li>
+      <li>9 bonus: tés, ponches, postres, café brujil y más</li>
+      <li>16+ imprimibles, trackers y cartas de intención</li>
+      <li>Reto de 30 días</li>
+      <li>Descarga inmediata en PDF</li>
+    </ul>
+    <div class="price__nums">
+      <s data-price-old></s>
+      <b data-price-now></b>
+      <span>MXN · pago único</span>
+    </div>
+    <a href="#" class="btn btn--big" data-checkout>Abrir mi grimorio ahora</a>
+    <div class="price__timer">
+      <span>El precio de lanzamiento termina en</span>
+      <span data-countdown><b data-d>00</b>d <b data-h>00</b>h <b data-m>00</b>m <b data-s>00</b>s</span>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="wrap wrap--narrow">
+    <p class="eyebrow">Preguntas frecuentes</p>
+    <h2 class="h2">Antes de cruzar el umbral</h2>
+    <div class="faq">
+      <details><summary>¿Necesito ser wiccano o brujo?</summary><p>No. El grimorio está escrito para principiantes y para quienes ya practican. Explica con claridad la diferencia entre paganismo, Wicca y brujería, y te deja crear tus propios rituales.</p></details>
+      <details><summary>¿Los ingredientes son fáciles de conseguir?</summary><p>Sí. Todo se encuentra en un mercado o supermercado mexicano, y cada receta trae sustituciones prácticas.</p></details>
+      <details><summary>¿En qué formato llega?</summary><p>PDF en alta resolución, tamaño carta. Lo lees en tu teléfono, tablet o computadora, y lo imprimes cuantas veces quieras.</p></details>
+      <details><summary>¿Las recetas son realmente buenas?</summary><p>Deliciosas primero, mágicas después. Mole, pozole verde, tamales, chilaquiles, buñuelos, champurrado, flan de piloncillo… cocina mexicana de verdad, con un ritual opcional.</p></details>
+      <details><summary>¿Incluye cuidados con hierbas y tés?</summary><p>Sí. Cada té incluye notas de seguridad y hay un capítulo completo de seguridad en la cocina.</p></details>
+      <details><summary>¿Cuándo lo recibo?</summary><p>De inmediato. Al completar tu pago recibes el enlace de descarga en tu correo.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="final">
+  <p class="final__lines"><span>Cocina con intención.</span><span>Come con presencia.</span><span>Celebra lo cotidiano.</span></p>
+  <a href="#precio" class="btn btn--big">Quiero mi grimorio</a>
+  <p class="final__note">La próxima luna llena puede ser tu primer ritual.</p>
+</section>
+
+</main>
+
+<footer class="foot">
+  <span class="foot__logo">OWEN co.</span>
+  <span>Occult Culinary Editions · Hecho en México</span>
+  <span>© <span data-year></span></span>
+</footer>
+
+<a href="#precio" class="sticky" data-sticky>Abrir el grimorio · <b data-price-now></b></a>
+
+<script src="script.js"></script>
+</body>
+</html>
